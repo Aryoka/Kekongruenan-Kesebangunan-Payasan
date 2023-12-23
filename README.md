@@ -1,0 +1,1 @@
+# Kekongruenan-Kesebangunan-Payasan
