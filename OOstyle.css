@@ -119,7 +119,7 @@ header{
 }
 
 .main-nav{
-    width: 150%;
+    width: 200%;
     background-color: var(--primary-color);
     padding-left: 2%;
     display: flex;
