@@ -37,9 +37,14 @@ body{
     margin-top: 1rem;
     font-size: 12pt;
 }
-.container ul2 li,
-.container ol li{
+.container ul2 li{
     padding-left: 3%;
+    margin-top: 1rem;
+    font-size: 14pt;
+    margin-bottom: 1rem;
+}
+.container ol li{
+    padding-left: 5%;
     margin-top: 1rem;
     font-size: 14pt;
     margin-bottom: 1rem;
