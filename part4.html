@@ -55,6 +55,47 @@
             <p11>Perhatikan bahwa ketika slider digeser panjang masing-masing sisi yang bersesuaian menjadi sama. Hal itu menunjukkan bahwa masing-masing sisi yang bersesuaian sebanding.</p11>   
             <hr color="#41368e" size="7px">
            </div>
+            <h6>Contoh Soal</h6>
+            <ol>
+                <li>Perhatikan gambar berikut</li>
+                <img src="latsoal_part4a.jpg" alt="latsoalpart4a" class="LatSoal" width="60%">
+                <p12>Jika segitiga ABC dan PQR koongruen maka tentukanlah sisi-sisi dan sudut-sudut yang bersesuaian!</p12>
+                <input type="text" name="kesimpulan" class="jwbn"><br>
+                <div id="sudut"></div>
+                <button onclick="sudut()" class="simpul">Periksa Jawaban</button>
+                <script>
+                    function sudut(){
+                        document.getElementById('sudut').innerHTML="Sisi AB bersesuaian dengan sisi QP<br>Sisi BC bersesuaian dengan sisi PR<br>Sisi CA bersesuaian dengan sisi RQ<br>Sudut ABC bersesuaian dengan sudut QPR<br>Sudut BCA bersesuaian dengan sudut PRQ<br>Sudut CAB bersesuaian dengan sudut RQP"
+                        document.getElementById('sudut').style.fontWeight="300";
+                        document.getElementById('sudut').style.display="inline-box";
+                        document.getElementById('sudut').style.width="100%";
+                        document.getElementById('sudut').style.textAlign="left";
+                        document.getElementById('sudut').style.paddingLeft="15px";
+                        document.getElementById('sudut').style.backgroundColor="#ffff00";
+                        document.getElementById('sudut').style.lineHeight="30px";
+                        document.getElementById('sudut').style.borderRadius="25px";
+                    }
+                </script>
+                <li>Perhatikan gambar berikut</li>
+                <img src="latsoal_part4b.png" alt="latsoalpart4b" class="LatSoal" width="80%">
+                <p12>Segitiga ABC dan KLM adalah dua segitiga yang sebangun. Tentukan panjang sisi KL dan MK!</p12>
+                <input type="text" name="kesimpulan" class="jwbn"><br>
+                <div id="sudut"></div>
+                <button onclick="sudut()" class="simpul">Periksa Jawaban</button>
+                <script>
+                    function sudut(){
+                        document.getElementById('sudut').innerHTML="Untuk menentukan panjang sisi KL dan MK dari segitiga KLM dapat dilakukan dengan membandingkan panjangnya dengan sisi yang bersesuaian pada segitiga ABC,<br>karena sisi KL bersesuaian dengan sisi AB dan sisi LM bersesuaian dengan sisi BC maka:<br> KL/AB = LM/BC<br>KL/4 = 9/3<br> KL/4 = 3<br>KL 3x4<br>KL=12 satuan<br>"
+                        document.getElementById('sudut').style.fontWeight="300";
+                        document.getElementById('sudut').style.display="inline-box";
+                        document.getElementById('sudut').style.width="100%";
+                        document.getElementById('sudut').style.textAlign="left";
+                        document.getElementById('sudut').style.paddingLeft="15px";
+                        document.getElementById('sudut').style.backgroundColor="#ffff00";
+                        document.getElementById('sudut').style.lineHeight="30px";
+                        document.getElementById('sudut').style.borderRadius="25px";
+                    }
+                </script>
+            </ol>
            <hr color="#41368e" size="25px">
         </div>
     </body>
