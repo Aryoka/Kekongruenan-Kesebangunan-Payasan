@@ -145,14 +145,14 @@
             <h6 class="header-sixth">Contoh Soal dan Pembahasan</h6>
             <ol>
                 <li>Perhatikan gambar berikut</li>
-                <img src="latsoal_part1a.png" alt="latsoalpart2b" class="LatSoal" width="60%">
-                <p12>Apakah kedua belah ketupat tersebut kongruen? Berikan alasanmu!</p12>
+                <img src="latsoal_part3a.png" alt="latsoalpart2b" class="LatSoal" width="60%">
+                <p12>Apakah kedua trapesium tersebut sebangun? Berikan alasanmu!</p12>
                 <input type="text" name="kesimpulan" class="jwbn"><br>
                 <div id="soala"></div>
                 <button onclick="soala()" class="simpul">Periksa Jawaban</button>
                 <script>
                     function soala(){
-                        document.getElementById('soala').innerHTML="Iya, karena semua sisi yang bersesuaian sama panjang dan semua sudut yang bersesuaian sama besar."
+                        document.getElementById('soala').innerHTML="Tidak, karena salah satu sudut yang bersesuaian tidak sama besar, yaitu sudut CDA dengan sudut HEF."
                         document.getElementById('soala').style.fontWeight="300";
                         document.getElementById('soala').style.display="inline-box";
                         document.getElementById('soala').style.width="100%";
@@ -163,15 +163,14 @@
                         document.getElementById('soala').style.borderRadius="25px";
                     }
                 </script>
-                <li>Perhatikan gambar berikut</li>
-                <img src="latsoal_part1b.png" alt="latsoalpart2a" class="LatSoal" width="60%">
-                <p12>Jika segitiga QRS dan TRU koongruen maka tuliskan sisi-sisi yang sama panjang!</p12>
+                <li>Selesaikan soal berikut</li>
+                <p12>Sebidang tanah berbentuk persegi panjang dengan panjang 25 m dan lebar 15 m. Pada tanah tersebut akan dibuat kolam yang dikelilingi jalan setapak. Jika panjang kolam adalah 20 m, berapak luas kolam tersebut?</p12>
                 <input type="text" name="kesimpulan" class="jwbn"><br>
                 <div id="soalb"></div>
                 <button onclick="soalb()" class="simpul">Periksa Jawaban</button>
                 <script>
                     function soalb(){
-                        document.getElementById('soalb').innerHTML="QR=TR<br>RS=RU<br>SQ=UT"
+                        document.getElementById('soalb').innerHTML="Untuk mencari luas kolam tersebut pertama kita harus memcari lebar dari kolam tersebut dengan konsep kesebangunan.<br> Lebar kolam = p_kolam/p_tanah x l_tanah<br>Lebar kolam = 20/25 x 15<br> Lebar kolam = 12 m<br>Selanjutnya kita cari luas kolam dengan rumus luas persegi panjang<br>Luas kolam = p x l = 12x20 = 240 m2"
                         document.getElementById('soalb').style.fontWeight="300";
                         document.getElementById('soalb').style.display="inline-box";
                         document.getElementById('soalb').style.width="100%";
