@@ -143,6 +143,47 @@
                 </script>
                 <hr color="#41368e" size="25px">
             </p13>
+            <h6 class="header-sixth">Contoh Soal dan Pembahasan</h6>
+            <ol>
+                <li>Perhatikan gambar berikut</li>
+                <img src="latsoal_part4a.jpg" alt="latsoalpart2b" class="LatSoal" width="60%">
+                <p12>Apakah kedua belah ketupat tersebut kongruen? Berikan alasanmu!</p12>
+                <input type="text" name="kesimpulan" class="jwbn"><br>
+                <div id="soala"></div>
+                <button onclick="soala()" class="simpul">Periksa Jawaban</button>
+                <script>
+                    function soala(){
+                        document.getElementById('soala').innerHTML="Iya, karena semua sisi yang bersesuaian sama panjang dan semua sudut yang bersesuaian sama besar."
+                        document.getElementById('soala').style.fontWeight="300";
+                        document.getElementById('soala').style.display="inline-box";
+                        document.getElementById('soala').style.width="100%";
+                        document.getElementById('soala').style.textAlign="left";
+                        document.getElementById('soala').style.paddingLeft="15px";
+                        document.getElementById('soala').style.backgroundColor="#ffff00";
+                        document.getElementById('soala').style.lineHeight="30px";
+                        document.getElementById('soala').style.borderRadius="25px";
+                    }
+                </script>
+                <li>Perhatikan gambar berikut</li>
+                <img src="latsoal_part4b.png" alt="latsoalpart2a" class="LatSoal" width="80%">
+                <p12>Jika segitiga QRS dan TRU koongruen maka tuliskan sisi-sisi yang sama panjang!</p12>
+                <input type="text" name="kesimpulan" class="jwbn"><br>
+                <div id="soalb"></div>
+                <button onclick="soalb()" class="simpul">Periksa Jawaban</button>
+                <script>
+                    function soalb(){
+                        document.getElementById('soalb').innerHTML="QR=TR<br>RS=RU<br>SQ=UT"
+                        document.getElementById('soalb').style.fontWeight="300";
+                        document.getElementById('soalb').style.display="inline-box";
+                        document.getElementById('soalb').style.width="100%";
+                        document.getElementById('soalb').style.textAlign="left";
+                        document.getElementById('soalb').style.paddingLeft="15px";
+                        document.getElementById('soalb').style.backgroundColor="#ffff00";
+                        document.getElementById('soalb').style.lineHeight="30px";
+                        document.getElementById('soalb').style.borderRadius="25px";
+                    }
+                </script>
+            </ol>   
         </div>
     </body>
 </html>
