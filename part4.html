@@ -58,25 +58,6 @@
             <h6 class="header-sixth">Contoh Soal dan Pembahasan</h6>
             <ol>
                 <li>Perhatikan gambar berikut</li>
-                <img src="latsoal_part4a.jpg" alt="latsoalpart4a" class="LatSoal" width="60%">
-                <p12>Jika segitiga ABC dan PQR koongruen maka tentukanlah sisi-sisi dan sudut-sudut yang bersesuaian!</p12>
-                <input type="text" name="kesimpulan" class="jwbn"><br>
-                <div id="soala"></div>
-                <button onclick="soala()" class="simpul">Periksa Jawaban</button>
-                <script>
-                    function soala(){
-                        document.getElementById('soala').innerHTML="Sisi AB bersesuaian dengan sisi QP<br>Sisi BC bersesuaian dengan sisi PR<br>Sisi CA bersesuaian dengan sisi RQ<br>Sudut ABC bersesuaian dengan sudut QPR<br>Sudut BCA bersesuaian dengan sudut PRQ<br>Sudut CAB bersesuaian dengan sudut RQP"
-                        document.getElementById('soala').style.fontWeight="300";
-                        document.getElementById('soala').style.display="inline-box";
-                        document.getElementById('soala').style.width="100%";
-                        document.getElementById('soala').style.textAlign="left";
-                        document.getElementById('soala').style.paddingLeft="15px";
-                        document.getElementById('soala').style.backgroundColor="#ffff00";
-                        document.getElementById('soala').style.lineHeight="30px";
-                        document.getElementById('soala').style.borderRadius="25px";
-                    }
-                </script>
-                <li>Perhatikan gambar berikut</li>
                 <img src="latsoal_part4b.png" alt="latsoalpart4b" class="LatSoal" width="80%">
                 <p12>Segitiga ABC dan KLM adalah dua segitiga yang sebangun. Tentukan panjang sisi KL!</p12>
                 <input type="text" name="kesimpulan" class="jwbn"><br>
@@ -93,6 +74,25 @@
                         document.getElementById('soalb').style.backgroundColor="#ffff00";
                         document.getElementById('soalb').style.lineHeight="30px";
                         document.getElementById('soalb').style.borderRadius="25px";
+                    }
+                </script>
+                <li>Seseorang mencoba untuk mengukur lebar sebuah sungai yang ada di dekat rumahnya dengan cara menancapkan tongkat di titik A, B, C, dan D seperti ilustrasi berikut</li>
+                <img src="latsoal_part4a.jpg" alt="latsoalpart4a" class="LatSoal" width="60%">
+                <p12>Jarak titik A ke titik B adalah 12 m, sedangkan jarak titik B ke titik D adalah 15 m, dan jarak titik C ke titik D adalah 25 m. Berapakah lebar sungai tersebut</p12>
+                <input type="text" name="kesimpulan" class="jwbn"><br>
+                <div id="soala"></div>
+                <button onclick="soala()" class="simpul">Periksa Jawaban</button>
+                <script>
+                    function soala(){
+                        document.getElementById('soala').innerHTML="Berdasarkan ilustrasi tersebut lebar sungai yang diukur sama dengan panjang EA.<br>Sisi EA bersesuaian dengan sisi CD dan sisi AB bersesuaian dengan sisi DB, maka diperoleh:<br> EA/CD = AB/DB<br>EA/25 = 12/15<br> EA/25 = 4/5br>EA = 4/5 X 25<br>EA = 20 meter<br>"
+                        document.getElementById('soala').style.fontWeight="300";
+                        document.getElementById('soala').style.display="inline-box";
+                        document.getElementById('soala').style.width="100%";
+                        document.getElementById('soala').style.textAlign="left";
+                        document.getElementById('soala').style.paddingLeft="15px";
+                        document.getElementById('soala').style.backgroundColor="#ffff00";
+                        document.getElementById('soala').style.lineHeight="30px";
+                        document.getElementById('soala').style.borderRadius="25px";
                     }
                 </script>
             </ol>
